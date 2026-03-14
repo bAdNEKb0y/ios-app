@@ -1,0 +1,38 @@
+{
+	"appId": "com.nexxus.app",
+	"appName": "Nexxus",
+	"webDir": "dist",
+	"server": {
+		"androidScheme": "https",
+		"iosScheme": "https"
+	},
+	"plugins": {
+		"StatusBar": {
+			"style": "Dark",
+			"backgroundColor": "#059669"
+		},
+		"SplashScreen": {
+			"launchAutoHide": true,
+			"launchShowDuration": 1500,
+			"backgroundColor": "#059669",
+			"showSpinner": false
+		},
+		"Keyboard": {
+			"resize": "body",
+			"resizeOnFullScreen": true
+		}
+	},
+	"ios": {
+		"contentInset": "automatic",
+		"preferredContentMode": "mobile",
+		"backgroundColor": "#059669"
+	},
+	"android": {
+		"backgroundColor": "#059669"
+	},
+	"packageClassList": [
+		"KeyboardPlugin",
+		"SplashScreenPlugin",
+		"StatusBarPlugin"
+	]
+}
